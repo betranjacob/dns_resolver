@@ -1,0 +1,1461 @@
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63071
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16336
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5695
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 13090
+;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27091
+;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 2, ADDITIONAL: 3
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+--
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		3600	IN	NS	ns.xorp.org.
+xorp.org.		3600	IN	NS	ns2.xorp.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 54068
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63098
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 61711
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44370
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47517
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48665
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.yahoo.com.			IN	A
+
+;; ANSWER SECTION:
+www.yahoo.com.		300	IN	CNAME	fd-fp3.wg1.b.yahoo.com.
+fd-fp3.wg1.b.yahoo.com.	60	IN	A	98.139.183.24
+
+;; AUTHORITY SECTION:
+yahoo.com.		172800	IN	NS	ns1.yahoo.com.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13594
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 33896
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51775
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63279
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46842
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21457
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13642
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63971
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31996
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1072
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 1966
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31485
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13537
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31985
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36204
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 41689
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13919
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 16043
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33196
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 16323
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56381
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47895
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28232
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.yahoo.com.			IN	A
+
+;; ANSWER SECTION:
+www.yahoo.com.		300	IN	CNAME	fd-fp3.wg1.b.yahoo.com.
+fd-fp3.wg1.b.yahoo.com.	60	IN	A	98.139.183.24
+
+;; AUTHORITY SECTION:
+yahoo.com.		172800	IN	NS	ns1.yahoo.com.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27871
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 45479
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46351
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41540
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62171
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 46520
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7925
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46881
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12470
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57317
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 7715
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22980
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6228
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42654
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17342
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 25446
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15318
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 16740
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64172
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 45322
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27697
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9042
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63436
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.yahoo.com.			IN	A
+
+;; ANSWER SECTION:
+www.yahoo.com.		300	IN	CNAME	fd-fp3.wg1.b.yahoo.com.
+fd-fp3.wg1.b.yahoo.com.	60	IN	A	98.139.183.24
+
+;; AUTHORITY SECTION:
+yahoo.com.		172800	IN	NS	ns1.yahoo.com.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6972
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 64158
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54437
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54703
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13069
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 54486
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28338
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29981
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14263
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12946
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 64419
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22103
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32558
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61497
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21978
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 2403
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59298
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 31803
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11104
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 60970
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10519
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4876
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5193
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.yahoo.com.			IN	A
+
+;; ANSWER SECTION:
+www.yahoo.com.		300	IN	CNAME	fd-fp3.wg1.b.yahoo.com.
+fd-fp3.wg1.b.yahoo.com.	60	IN	A	98.139.183.24
+
+;; AUTHORITY SECTION:
+yahoo.com.		172800	IN	NS	ns1.yahoo.com.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49148
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 53937
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14153
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30378
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15948
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 17359
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29669
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30678
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43885
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 237
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 2907
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12184
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65031
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47314
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26315
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 16600
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4466
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 11567
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25771
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 3348
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27704
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13419
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16946
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.yahoo.com.			IN	A
+
+;; ANSWER SECTION:
+www.yahoo.com.		300	IN	CNAME	fd-fp3.wg1.b.yahoo.com.
+fd-fp3.wg1.b.yahoo.com.	60	IN	A	98.139.183.24
+
+;; AUTHORITY SECTION:
+yahoo.com.		172800	IN	NS	ns1.yahoo.com.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8897
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 32582
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63950
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30361
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50855
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 59300
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20005
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46571
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.xorp.org.			IN	A
+
+;; ANSWER SECTION:
+www.xorp.org.		3600	IN	A	208.74.158.171
+
+;; AUTHORITY SECTION:
+xorp.org.		86400	IN	NS	ns2.xorp.org.
+
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9168
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;lxr.linux.no.			IN	A
+
+;; ANSWER SECTION:
+lxr.linux.no.		900	IN	CNAME	lxr.linpro.no.
+lxr.linpro.no.		600	IN	A	87.238.46.5
+
+;; AUTHORITY SECTION:
+linux.no.		86400	IN	NS	strange.aox.org.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33364
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.caltech.edu.		IN	A
+
+;; ANSWER SECTION:
+www.caltech.edu.	300	IN	CNAME	www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com.
+www-caltech-edu-prod-1-103959757.us-west-1.elb.amazonaws.com. 60 IN A 184.72.62.131
+
+;; AUTHORITY SECTION:
+caltech.edu.		172800	IN	NS	tybalt.caltech.edu.
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 14616
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.haig.cs.ucl.ac.uk.		IN	A
+
+;; AUTHORITY SECTION:
+--
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40875
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	3600	IN	CNAME	toggle.www.ms.akadns.net.
+toggle.www.ms.akadns.net. 300	IN	CNAME	www.microsoft.com-c.edgekey.net.
+www.microsoft.com-c.edgekey.net. 21600 IN CNAME	www.microsoft.com-c.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c.edgekey.net.globalredir.akadns.net.	3600 IN	CNAME e10088.dspb.akamaiedge.net.
+e10088.dspb.akamaiedge.net. 20	IN	A	92.123.111.162
