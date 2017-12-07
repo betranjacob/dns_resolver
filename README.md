@@ -1,2 +1,2 @@
 # dns_resolver
-A DNS Resolver implementation 
+A recursive DNS resolver implementation 
